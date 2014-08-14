@@ -1,0 +1,230 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath}
+\usepackage{relsize}
+\usepackage{bbm}
+\usepackage{cite}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{graphics}
+\begin{document}
+\author{Claire Malone}
+\title{Physics Beyond the Standard Model }
+\maketitle
+\tableofcontents
+
+\section{Motivations}
+One of the most striking facts about the universe is the abundance of matter in comparison to anti-matter, which contradicts the prediction that both should have been created in equal quantities at the Big Bang \cite{paper35,paper36}. Evidence is provided  in the fact that cosmic rays are almost entirely composed of matter and the characteristic outbursts of electromagnetic radiation from matter/anti-matter annihilation are not observed \cite[p. 323]{paper35}. One of the prerequisites for this asymmetry is the non-conservation of $CP$. The missing $CP$ violation
+hints that there is beyond-the-SM physics at work in our Universe\cite[p. 12]{paper1}.
+
+Another observation that hints that the Standard Model ($SM$) is incomplete is that large amounts of astrophysical data, such as the rotational velocities of star clusters, suggests that visible matter accounts for merely $4.6\%$ of the matter in the universe. It is postulated that a further $23\%$ may be comprised of dark matter. From matching cosmological models to the data it can be inferred that this would be comprised of stable, extremely long-lived, low-energy non-baryonic particles. Considerations of the initial conditions of the universe can be used to predict the interaction cross-section required to produce the dark matter density observed today. The cross-section found is one typical of the weak scale corresponding to particles of masses between $100$ $ GeV$ and $1$ $ TeV$. The conclusion is known as the {\it WIMP miracle} and is related to predictions from electro-weak theory that there must be New Physics ($NP$) at the $TeV$ scale to avoid the logarithmic divergences in scalar fields of the $SM$ \cite[p. 12]{paper1}. 
+
+The Large Hadron Collider ($LHC$) project \cite{paper10} at the Organisation Europe\'enne Pour la Recherche Nucl\'eaire ($CERN$) offers the first chance to explore physics at the $TeV$ scale in detail  \cite[p. 12]{paper1}. Among the decays studied at the $LHC$, the flavour changing neutral current ($FCNC$) process $B_d\rightarrow (K^+\pi^{-})\mu^+\mu^-$ offers high sensitivity to $NP$ through potential new degrees of freedom beyond the $SM$ \cite{paper39}. Any measurement of the $CP$ violation in this decay would reduce the parameter space available for $NP$ or provide a clear signal for it \cite[p. 74]{paper1}. The aim of this project will be the analysis of the angular distribution of the $B_d\rightarrow (K^+\pi^{-})\mu^+\mu^-$, in particular the resonant structure of the $K^+\pi^-$ pair with the goal of identifying $NP$ currently not included within the $SM$ framework.  
+
+\section{Theoretical framework}
+
+The Standard Model of particle physics  \cite{paper22,paper23,paper24,paper25,paper26,paper27,paper28,paper29,paper30} is a relativistic quantum field theory that describes the electromagnetic, strong and weak forces and their interactions with the particles that comprise the universe as we observe it. It is founded on the principle that nature has fundamental symmetries which must be observed by any theory that attempts to describe it. 
+These symmetries are specified as the product of three gauge groups. 
+
+\begin{equation}\label{SM}
+G_{SM} = SU(3)_C \otimes SU(2)_W \otimes U(1)_Y,
+\end{equation}
+
+The strong interaction is described by $SU(3)_C$ and the electromagnetic and weak interactions by $SU(2)_W \otimes U(1)_Y$. The group's twelve generators correspond to the eight gluons, $g$, three weak bosons $W^\pm$ and $Z^0$ and the photon $\gamma$ that together mediate the strong, weak and electromagnetic forces respectively\cite[p. 13]{paper1}. 
+The mechanism that breaks electroweak symmetry, thereby giving mass to massive particles implying the existence of the Higgs boson, has only recently been experimentally verified \cite{paper33}. 
+
+The weak force is responsible for the $B_d  \rightarrow K^+  \pi^-\mu^+\mu^-$ decay which is the focus of this project \cite[p. 21]{paper1}. 
+The fact that the $B_d$ decays implies that for quarks, unlike leptons,  there must be cross-generational couplings. These generations are coupled to each other by the weak force. The quark states $d^{\prime}$, $s^{\prime}$ and $b^{\prime}$ are not mass eigenstates but are related to them as follows \cite[p. 414]{riazuddin}, \cite{paper29, paper30}: 
+\begin{equation}
+\begin{pmatrix} d^{\prime} \\ 
+                         s^{\prime}\\
+                         b^{\prime}\\
+\end{pmatrix}
+= V_{CMK}  \begin{pmatrix} d \\ 
+                         s\\
+                         b\\
+\end{pmatrix}
+\end{equation}
+where: 
+\begin{equation}
+V_{CMK} = \begin{pmatrix} V_{ud}& V_{us}& V_{ub}\\
+                                           V_{cd} &V_{cs} &V_{cb} \\
+V_{td} &V_{ts}& V_{tb} \\
+\end{pmatrix}
+\end{equation}
+
+The unitary nature of this matrix means that not all elements are independent. After applying unitary constraints and using the freedom to redefine the quark phases, $V_{CKM}$ can be written in terms of three independent angles $\theta_{12}$,  $\theta_{13}$ and $\theta_{23}$, and a $CP$ violating phase $\delta$ \cite{altarelli}. There have been many parametrisations of the $CKM$ matrix, but the most commonly used is the Wolfenstein parametrisation \cite{wolfenstein}:\color{black} 
+\begin{equation}
+V_{CMK} = \begin{pmatrix}c_{12} c_{13} & s_{12}c_{13} & s_{13} e^{-\imath\delta}\\
+                                            -s_{12}c_{23} - c_{12}s_{23}s_{13}e^{\imath\delta} & c_{12}c_{23} - s_{12}s_{23}s_{13}e^{\imath\delta} & s_{23}c_{13} \\
+s_{12}s_{23} - c_{12}s_{23}s_{13}e^{\imath\delta} & -c_{12}s_{23} - s_{12}c_{23}s_{13}e^{\imath\delta} & c_{23}c_{13} \\
+\end{pmatrix}
+\end{equation}
+where $s_{ij}\equiv$ sin $\theta_{ij}$, $c_{ij}\equiv$ cos $\theta_{ij}$ and the angles are chosen so that $s_{ij}$, $c_{ij}$ $\geq 0$.  
+As we know from experiments that $s_{13} \ll s_{23}\ll s_{12}\ll 1$, the off-diagonal elements are much smaller than the diagonal elements, allowing us to write, with an accuracy better than $\mathcal O (0.05)$:
+\begin{equation}
+V_{CMK} \approx \begin{pmatrix} 1&\lambda&0\\
+-\lambda&1&0\\
+\end{pmatrix}
+\end{equation}
+where $\lambda = 0.2257^{+0.0009}_{-0.0010}$ \cite[p. 19]{paper1}. 
+The unitarity of the matrix also implies: 
+\begin{equation}
+\sum_i V_{ij} V_{ik}^*=0;
+\end{equation}
+for $j\neq k$. Each of these six unitary constraints can be viewed as the sum of three complex numbers, closing a triangle in the complex $\bar\rho - \imath\bar\eta$ plane. The current status of the unity triangle in the $\bar\rho - \imath\bar\eta$ plane is shown in Fig.\ref{triangle}. One of these relations for $j=d$ and $k=b$ is of particular interest as it applies directly to $b$-decays. It is written \cite[p. 308]{altarelli}: 
+\begin{equation}
+V_{ud}V_{ub}^{\ast} + V_{cd}V_{cb}^{\ast} +  V_{td}V_{tb}^{\ast}=0;
+\end{equation}
+\begin{figure}
+\begin{center}
+\includegraphics[scale=1.1]{rhoeta_large}
+\end{center}
+\caption{The unity triangle in the $\bar\rho - \imath\bar\eta$ plane as of October 2012 (reproduced from)}
+\label{triangle}
+\end{figure}
+%This defines a triangle in the complex plane, as do the other six unitary relations. We define:
+%\begin{equation}
+%\bar\rho +\imath\bar\eta = -\frac{ V_{ud}V_{ub}^{\ast}}{ V_{cd}V_{cb}^{\ast}},
+%\end{equation}
+$CP$ violation can be measured by the height of the triangle in the $\bar\rho$-$\bar\eta$ plane while the angles are defined as \cite[p. 19-20]{paper1}:
+\begin{equation}
+\beta = \arg \left(  -\frac{ V_{cd}V_{cb}^{\ast}}{ V_{td}V_{tb}^{\ast}}\right);\quad 
+\alpha = \arg \left(  -\frac{ V_{td}V_{tb}^{\ast}}{ V_{ud}V_{ub}^{\ast}}\right);\quad 
+\gamma = \arg \left(  -\frac{ V_{ud}V_{ub}^{\ast}}{ V_{cd}V_{cb}^{\ast}}\right);
+\end{equation}
+\color{blue} Many studies are concerned with constraining the values of $\alpha$, $\beta$ and $\gamma$ (see for example \cite{paper2 }).A model-independent Dalitz
+plot analysis of 
+
+page 222 blue quark book 
+
+ \color{black} However the $b\rightarrow s$ transition which is responsible for the $B_d\rightarrow (K^+\pi^{-})\mu^+\mu^-$ decay is not allowed in the Cabibbo model. In 1970 Glashow, Iliopoulos and Maiani proposed the $GIM$ mechanism \cite{gim} by suggesting the introduction of a new charge $+\frac{2}{3}$ quark, which they labeled $c$ for "charm" in addition to the $u$, $d$ and $s$ quarks which were known at the time. This prediction was verified with the discovery of the $J/\psi$ state $c\bar c$ in 1974 \cite{perkins}. This mechanism is responsible for the decay of $B$ mesons and also governs the $b\to s$ and $s\bar d\to \bar s d$ transitions \cite[p. 39]{ali}. 
+
+Due to the mass of the $W^{\pm}$ boson, the weak force acts at a very short range of the order of $10^{-18}$ \cite[p. 8]{paper5}. To describe phenomena that act on very small scales, effective field theories are often used. In particle physics effective field theories are based on the idea that the typical energies for a process define a scale $\mu$ and contributions from virtual particles with masses much greater than $\mu$ are suppressed \cite{paper37}.
+$\mu$ can be thought of as the typical distance involved in the interaction, and processes operating at different scales are both spatially and temporally separated or decoupled \cite[p. 22]{paper1}.
+
+Effective field theories are often applied to weak interactions of the $b$ quark: particles with masses significantly greater than $m_b$ (such as the $W$ boson and the $t$ quark) are integrated out, so that the physics active at the scale $\mu \sim m_b$ can be focused on \cite[p. 23]{paper1}. 
+
+This requires that the full theory can be parametrized at the scale at which it is active. For the $SM$ this is the weak scale $\mu \sim m_W$.The full $SM$ Hamiltonian can be written in terms of an effective Hamiltonian, such that for a particular process 
+
+\begin{equation}
+\langle f | \mathcal{H}_{full} |i\rangle = \langle f | \mathcal{H}_{eff} |i\rangle = \sum_k \mathcal{C}_k \left  ( \mu\right ) \langle f | \mathcal{O}_k | i \rangle \rvert \mu
+\end{equation}
+ calculated in $\mu$ 
+where the Wilson coefficients $\mathcal{C}_k  (\mu)$ parametrise the effects of physics acting at a shorter range than $\mu$ and $\mathcal{O}_k$ are matrix elements, referred to as {\it local operators}, for physics acting longer ranges. This is the Operator Product Expansion ($OPE$). The values of the Wilson coefficients are found by matching the full and effective Hamiltonians at the weak scale which can be done with high precision in the $SM$. This can also be carried out for New Physics ($NP$) models.
+
+The effective Hamiltonian for the decay studied in this project describes the inclusive transition $b\rightarrow s\ell^+\ell^-$: 
+\begin{equation}\label{projecthamiltonian}
+\mathcal {H} = -\frac{4G_F}{\sqrt 2}\lambda_t \left ( \mathcal {C}_1\mathcal O_1^c + \mathcal C_2\mathcal O_2^c + \sum_{\imath = 3}^{6}\mathcal C_i\mathcal O_i + \sum_j (\mathcal C_j\mathcal O_j + \mathcal C_j^{\mathcal '}\mathcal O_j^{\mathcal '} ) \right ),
+\end{equation}
+where $j = 7,8,9,10,P,S$ and $\lambda_t = V_{tb} V^{\ast}_{ts}$ is a combination of the relevant $CKM$ matrix elements. 
+The values of the Wilson coefficient are sensitive to the underlying physics model and will change from their $SM$ values if new terms in $\mathcal{H}_{full}$ are found. They are also process independent and still can be determined separately by different experiments. If the coefficients are measured  {\it entire classes} of $NP$ can be discovered or excluded, classified by the underlying gauge structure of each corresponding operator. Hence the $OPE$ treatment of $B$ decays is very powerful for making model independent tests of the $SM$ \cite[p. 23]{paper1}. 
+
+
+
+\section{$B$ decays}
+This project is focused on the decay of $B$ mesons. $B$ mesons are comprised of a bottom quark or anti-quark in addition to one other quark with a different flavour \cite{paper38} with a mean lifetime $\tau_B = (1.530\pm 0.009) \times 10^{-12} s$ \cite[p. 21]{paper1}.
+The most important process responsible for the decay of the ground state of the $b$- meson is shown in Fig. \ref{figure1}
+\begin{figure}[tb]
+\begin{center}
+\includegraphics[scale= 1]{groundstatedecay}
+\caption{The leading processes contributing to decay of the ground state $b$-mesons. Penguin and mixing processes and $b\to u$ decay also contribute but are suppressed (reproduced from \cite{barker})}
+\end{center}
+\label{figure1}
+\end{figure}
+However the $B_d  \rightarrow K^+  \pi^-\mu^+\mu^-$ decay studied here is known as a rare decay that proceeds via penguin and box diagrams such as those shown in  Fig.\ref{figure5}.
+The decay proceeds in three stages: first the $B$ decays into a nearly onshell $K^{\ast}_j$ and a pair of muons. The $K^{\ast}_j$ then propagates and decays via the strong force to the $K\pi$ state. For this reason the decay can be written as $B\rightarrow (K^-\pi^{+})\mu^+\mu^-$ \cite{paper3}. The $SM$ Feynman diagrams are shown in Fig. \ref{figure5} where decay (a) is the focus of this project \footnote{The $\bar B_d$ is considered here as it contains the $b$ quark. The formalism could be equally applied to the $B_d$, which contains the $\bar b$ quark}. The $K^+\pi^-$ pair which the $\bar K^{\ast}_j$ decays into is not shown. 
+\begin{figure}
+\includegraphics[scale=1]{penguin}
+\caption{Penguin diagrams for the $\bar B_d\rightarrow \bar K^{\ast 0}\mu^+\mu^-$ decay. Decay (a) is the focus of this project. Reproduced from \cite[p. 28]{paper1}}
+\label{figure5}
+\end{figure}
+
+
+ A rare decay is defined as proceeding via and electroweak $FCNC$ loop process which is forbidden at tree level \cite[p. 21]{paper1}. These decays are of interest for a number of reasons: firstly, they have high sensitivity to $NP$ through potential new degrees of freedom beyond the $SM$; moreover, contributions to the decay rate, where $SM$ particles in loops are replaced by new particles such as the supersymmetric charginos or gluinos (described by eq. \ref{projecthamiltonian}) are not suppressed by the loop factor $\alpha/4\pi$ relative to the $SM$ contribution;
+ therefore $FCNC$ decays give information about the $SM$ and its extensions via virtual effects to scales presently inaccessible otherwise \cite{paper39}. 
+This explains why these decays are the focus of attention of several groups (\color{red}  {\it see the next section}\color{black} ).
+
+The decays of the $b$ quark are also experimentally attractive. The $b$ quark is the heaviest quark to form bound states. Their decays can be identified in a hadronic environment by studying the vertices displayed from the primary interaction point. This can be achieved because the mesons are relatively stable and so decay a measurable distance from where they were produced \cite[p. 21]{paper1}.
+
+
+\section{Previous experiments}\label{previousexperiments}
+The first observed decays of the quark-level process $b \rightarrow s\gamma$ were the $B^0\rightarrow K^{\ast}(892)^0\gamma$ and $B^-\rightarrow K^{\ast}(892)^0\gamma$ decays with an average branching ratio of $(4.5 \pm1.5 \pm 0.9) \times 10^{-5}$ at the $CLEO-II$ detector at the Cornell Electron Storage Ring ($CESR$) in 1993 \cite{paper21}. 
+
+Evidence of the $B_d \to K^{*} \ell^{+} \ell^{-}$ decay - which this project is focused on - was first observed by the $BaBaR$ detector at the $PEP-II$ $B$ Factory in 2002 \cite{paper34}. The branching ratio for this decay was first measured at  the Belle detector at the $KEKB$ collider to be $(11.5 ^{+2.6}_{-2.4}\pm 0.8\pm 0.2)\times 10^{-7}$ \cite{paper41}. Due to the impact that analysis of the angular distribution of the $B_d \to K^{*} \ell^{+} \ell^{-}$ decay may have on our understanding of physics beyond the $SM$, many other groups have studied this decay (see for example  \cite{paper40,paper42,paper43,paper44}). One of the most important variables of the decay is the forward-backward asymmetry, $A_{FB}$, that quantifies the "amplitude" by which the angular distribution is skewed away from being perfectly symmetric in $\theta$ \cite[p. 8]{barker}.A definition of $A_FB$ for the decay considered in this project can be found in \cite[p. 55]{paper1}. 
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.9]{AFB}
+\end{center}
+\caption{$A_{FB}$ as a function of $q^2$, measured by the $BaBar$, $Belle$, $CDF$ and $LHCb$ experiments compared to the $SM$ prediction. Reproduced from \cite{paper40}}
+\label{figure3}
+\end{figure}
+A summary of the measurements of $A_{FB}$ produced by $BaBar$, $Belle$, $CDF$ and $LHCb$ were presented at Flavour Physics and $CP$ Violation ($FPCP$) in August 2012 \cite{paper40}.These results are shown in Fig. \ref{figure3}. 
+ 
+These results are all in good agreement with the $SM$ and set strong constraints on a number of $NP$ models. Nevertheless, whilst they do not provide convincing evidence of $NP$, they are statistically limited and the room for extensions to the $SM$ is still large. 
+
+\section{$B$ production methods}
+Well-defined beams of neutral $B$ mesons cannot be formed due to the very short lifetime of the $B$ particle. Therefore the interest in decays such as $B_d  \rightarrow K^+  \pi^-\mu^+\mu^-$ has led to the construction of $B$ factories. Most factories, such as the $PEP-II$ facility at $SLAC$ in California, exploit the properties of the bottomium resonance ($\Upsilon (4S) = b \bar b$). At the $LHCb$ the main production method of $B$ mesons at $\sqrt{s} = 14$ $TeV$ are through the leading order process of gluon fusion, next to leading order processes such as flavour excitation and by quark-antiquark annihilation \cite{papadelis}. Examples of these processes are shown in the Feynman diagrams in Fig. \ref{gluons}.
+
+\begin{figure}
+\includegraphics[scale = 0.8]{gluons}
+\caption{Examples of Feynman diagrams for B-production. Two leading-order diagrams are pair creation through gluon fusion (a) and quark-antiquark annihilation (b). Examples of important higher order diagrams are flavour excitations (c) and gluon splitting (d) (reproduced from \cite[p. 15]{papadelis})}
+\label{gluons}
+\end{figure}
+
+
+%This state is just heavy enough to decay into the lightest meson states: 
+%
+%\begin{align}
+%B^+ (5279) & = u\bar b & B^0 (5279) & = d\bar b  \\
+%B^- (5279) & = b\bar u &\bar B^0 (5279) & = b\bar d 
+%\end{align}
+%
+%However bottomium is not massive enough to decay to any other final states. Therefore it almost always decays to $B^+ B^-$ and $B^0 \bar B^0$ pairs with approximately equal probability. As bottomium has the same quantum numbers $J^{PC} = 1^{- -}$  as the photon,  it can be produced by the annihilation of $e^+ e^-$ pairs via the mechanism shown below\color{red}  {\it put diagram here}. \color{black} 
+%
+%Two $B$ factories have been constructed with this principle in mind to study $CP$ violation in $B$ meson decays. One is the $PEP-II$ facility at $SLAC$ in California and which a $3.1$ $ GeV$ positron beam is collided with an $8$ $ GeV$ electron beam.The asymmetry in the beam energies is crucial in ensuring that the $B$ mesons are produced with enough momentum to travel a measurable distance prior to decaying. This is important because measurements of $CP$ violation often depend on knowledge of the precise time between the production and the decay of $B$ mesons \cite[p. 297-298]{paper35}.\\
+
+
+ 
+
+\section{The $LHC$ and the $LHCb$ experiment}
+The $LHC$  is another example of a $B$ factory. It is a two-ring superconducting hadron accelerator and collider that was installed at the {\it Centre Europ$\acute{e}$enne pour la  Recherche Nucl$ \acute{e}$aire ($CERN$)} for the {\it LEP} machine. The tunnel of the $LEP$ machine consists of eight straight sections connected to eight arcs and lies between 45 m and 170 m below the Jura mountains \cite{paper10}. 
+
+The $LHCb$ is the latest addition to the $CERN$ accelerator complex  \cite[p. 30]{paper1} in addition to the $ATLAS$, $CMS$ and $ALICE$ experiments  \cite{paper17, paper18, paper19}.It makes use of the high production rate of $B$ particles at the $LHC$ to provide precision measurements of $CP$ violation and rare decays in the $B$-meson system \cite{paper13,paper14}. This can be achieved because of the large number of $b$$\bar{b}$-pairs produced by the $pp$ interactions at $\sqrt{s}=14$  $TeV$.The ability the $LHC$ has to reach this centre of mass energy is the main advantage it has over other similar experiments such as $BaBar$ and $Belle$. 
+
+The $LHCb$, a single-arm spectrometer, measures the trajectory of charged particles and reconstructs primary $pp$ interactions using a silicon strip vertex detector positioned around the interaction region. This vertex detector or $VELO$ also reconstructs secondary vertices that are characteristic of $B$-meson decays. A dipole magnetic field and further charged particle tracking allows measurement of momenta in the range $5 < p < 100$ $GeV/c$ with a precision of $\delta p/p = 0.4-0.6\%$. Two Ring Image Cherenkov ($RICH$) detectors separate kaons from muons and pions over a momentum range $2 < p < 100$ $GeV/c$. Muons are identified on the basis of the number of hits in detectors interleaved with an ion muon filter \cite{paper40}. Detailed descriptions of the individual components of the experiment can be found in \cite{paper12, paper13, paper14, paper16}. A justification of the criteria on which the event selection is based can be found in \cite{1}. 
+
+\section{The Project }
+In this project, $NP$ beyond the $SM$ will be investigated by analyzing the angular distribution of the $B \to K^{*} \ell^{+} \ell^{-}$. In particular the resonant structure of the look at the resonant
+structure of the $K^+\pi^-$ pair will be studied. The angular distribution of $B \to K^{*} \ell^{+} \ell^{-}$ has been calculated in \cite{paper3} and is given by:
+
+\begin{equation}
+\begin{split}
+\frac{d^4\Gamma}{dm^2_{K\pi}dq^2d cos\theta_K d cos \theta_l d\phi}& =\left [I^c_1 + 2 I^s_1 + \left ( I^c_2 + 2 I_2^s\right ) cos (2\theta_l) \right . \\
+&\left . + 2 I_3 sin^2\theta_l cos(2\phi) + 2\sqrt{2} I_4 sin(2\theta_l) cos\phi \right. \\
+&+\left .  2\sqrt{2} I_5 sin(\theta_l) cos\phi + 2I_6 cos\theta_l  + 2\sqrt{2}I_7 sin(\theta_l) sin\phi\right. \\
+& \left . |2\sqrt{2} I_s sin(2\theta_l) sin\phi | 2I_9 sin^2\theta_l sin(2\phi)\right ] 
+\end{split}
+\end{equation}
+
+\begin{figure}
+\includegraphics{kinematics}
+\caption{Kinematics in $\bar B\rightarrow\bar K^{\ast}_J (\rightarrow K^-\pi^+)l^+l^-$. $K_J^{\ast}$ moves along the $z$ axis in the $B$ rest frame. $\theta_K(\theta_l)$ is defined in $K^{\ast}_J$ (lepton pair) rest frame as the angle between $z$-axis and the flight direction of $K^-(\mu^-)$, respectively. The azimuth angle $\phi$ is the angle between the $K^{\ast}_J$ decay and lepton pair planes. Reproduced from \cite{paper3}}
+\label{figure2}
+\end{figure}
+where the angular dependencies are given in \cite{paper3} and the angles are defined in Fig.\ref{figure2}
+An expression for a particular variable  can be derived by integrating out all the irrelevant degrees of freedom.
+
+In this project the techniques used analyse the angular dependence of the decay will be similar to those explained in \cite{paper2}. In summary, the known dependence on the $K^-\pi^+$ invariant mass will be used to study the relative phase between the $S$-wave and the $P$-wave scattering amplitudes of the $B_d\rightarrow (K^+\pi^{-})\mu^+\mu^-$. 
+
+\section{Conclusion}
+The aim of this project is to investigate New Physics beyond the Standard Model by analysing the angular distribution of the rare flavour changing neutral current decay 
+$\bar B_d\rightarrow\bar K^{\ast}_J (\rightarrow K^-\pi^+)l^+l^-$. 
+The most recent and relevant results of the $LHCb$, $BaBar$, $Belle$ and $CDF$ have been given. The data for this project will be obtained from the $LHCb$ experiment which has been described. To date the results do not provide sufficient evidence for physics beyond the $SM$, but they by no means exclude it. 
+
+\nocite{paper7,paper9}
+
+\bibliography{biblit}%.bib file heregoes tooProgram files/Miktex2.9\bibtex\bib\base by default
+\bibliographystyle{unsrt}
+\end{document}
